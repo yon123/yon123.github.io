@@ -1,0 +1,43 @@
+.github img{
+  height: 80px;
+  width: 80px;
+  list-style-type: none;
+  border-radius: 40px;
+  margin-left: 100px;
+  margin-top: 35px;
+  -moz-transition:-moz-transform 0.5s ease-in;
+  -webkit-transition:-webkit-transform 0.5s ease-in;
+  -o-transition:-o-transform 0.5s ease-in;
+}
+
+.github img:hover {
+  -moz-transform:scale(2);
+  -webkit-transform:scale(2);
+  -o-transform:scale(2);
+}
+
+
+body {
+  background-image: url("http://demortalz.com/wp-content/uploads/2011/11/1531.jpg");
+   background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.hdr_name {
+  font-size: 10px;
+  /*text-align: center;*/
+  color: white;
+  font-family: 'Roboto';
+
+}
+
+.hdr_name h3 {
+  color:red;
+  font-size: 15px;
+}
+
+.info_bio {
+  font-family: Roboto;
+  font-size: 30px;
+  color: white;
+  text-align: center;
